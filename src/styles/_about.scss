@@ -2,29 +2,34 @@
 
 .about {
   width: 100%;
-  background-color: $pink;
-
+  background-color: $yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
   > main {
-    background-color: white;
+    background-color: $red;
     max-width: 900px;
     height: 100%;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
 
     > h1 {
       font: 500 3rem "Roboto";
-      color: $red;
-      padding: 1rem 2rem;
+      color: $yellow;
+      padding: 50px 0px 10px 0px;
       text-transform: uppercase;
-      background-color: $dark;
+      background-color: $red;
     }
 
     > article {
       margin: 2rem 0;
-      > h4 {
-        font: 100 2rem "Roboto";
-        text-transform: uppercase;
+      > h2 {
         text-align: center;
-        padding: 2rem 0;
+        text-transform: uppercase;
+        color: $yellow;
       }
 
       > p {
@@ -34,6 +39,7 @@
         width: 50%;
         text-align: center;
         margin: auto;
+        color: white;
       }
 
       > a {
@@ -56,12 +62,15 @@
     }
 
     > div {
-      background-color: $dark;
+      background-color: $red;
       padding: 2rem;
       color: white;
+      border-radius: 0px 0px 10px 10px;
+
       > h2 {
         text-align: center;
         text-transform: uppercase;
+        color: $yellow;
       }
 
       > article {
